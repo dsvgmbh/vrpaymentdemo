@@ -29,7 +29,8 @@ android {
 }
 
 dependencies {
-    implementation files('C:\\dev\\android_projects\\vrpaymentdemo\\libs\\vr-payme-android-sdk-2.1.0-prodRelease.aar')
+    implementation files('C:\\dev\\android_projects\\vrpaymentdemo\\libs\\vr-payme-android-sdk-2.3.0-prodRelease.aar')
+    //implementation project(path: ':vr-payme-android-sdk')
     implementation 'androidx.appcompat:appcompat:1.7.0'
     implementation 'com.google.android.material:material:1.12.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
